@@ -32,6 +32,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 //slider auto play duration 15sec
 $('#features-carousel').carousel({
-  interval: 15000,
+  interval: 10000,
   cycle: true
 }); 
