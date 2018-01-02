@@ -23,7 +23,7 @@ $(function() {
             $.ajax({
                 //url: "././mail/contact_me.php",
                 //url: "http://zericho.000webhostapp.com/nujible/mail/contact_me.php",
-                url: "www.infoenum.com/contact_me.php",
+                url: "http://infoenum.com/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
