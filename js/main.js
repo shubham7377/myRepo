@@ -29,3 +29,9 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//slider auto play duration 15sec
+$('#features-carousel').carousel({
+  interval: 15000,
+  cycle: true
+}); 
